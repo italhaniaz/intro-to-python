@@ -64,10 +64,8 @@ def get_largest_prime(num):
 
 #### End OF MARKER
 
-
-
 if __name__ == '__main__':
-    print (is_prime(499))  # should return True
+    print (is_prime(599))  # should return True
 
     print (get_largest_prime(10))  # should return 7
     # print get_largest_prime(100000)  # bonus, try with 100k
