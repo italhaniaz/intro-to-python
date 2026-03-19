@@ -17,11 +17,9 @@ def is_prime(num):
         return None
     
     num = int(num)
-    for i in range(2, num):
-        for j in range(2, num):
-            multiple = i * j
-            if multiple == num:
-                return False
+    for i in range(2, int(num/2)):
+        if num%i == 0:
+            return False
   
     return True
 #### End OF MARKER
