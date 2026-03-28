@@ -62,4 +62,4 @@ def get_nth_prime(n):
 
 if __name__ == '__main__':
     output_prime_factors(34.4)
-    print (get_nth_prime(20))
+    print (get_nth_prime(10))
